@@ -1,12 +1,4 @@
 # API Transaksi (Tes Magang PT Inovasi Daya Solusi)
-
-## 🚀 Fitur
-
-* Menyediakan *endpoint* `GET` tunggal untuk mengambil data.
-* Mengembalikan respons JSON terstruktur yang menggabungkan data transaksi dan data master status.
-* Menggunakan database MySQL relasional untuk menyimpan data.
-* Sepenuhnya dapat dijalankan dalam satu perintah menggunakan Docker Compose (termasuk pembuatan dan pengisian data database).
-
 ## 🛠️ Teknologi yang Digunakan
 
 * **Java 21**
