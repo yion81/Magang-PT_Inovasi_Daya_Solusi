@@ -20,23 +20,12 @@
 
 1.  **Clone repository ini ke folder yang diinginkan.**
 
-2.  **Buat File `.env` (Sangat Penting)**
-    Buat file baru di folder utama proyek (technical.api) bernama `.env`. File ini digunakan untuk menyimpan *password* database dengan aman.
-    Isi file `.env` dengan:
-    ```
-    DB_PASSWORD=root
-    ```
-    *(Anda bisa ganti `root` dengan password apa pun yang Anda inginkan untuk database Docker Anda)*
-
-3.  **Jalankan Docker Compose:**
+2.  **Jalankan Docker Compose:**
     Buka terminal di folder proyek dan jalankan:
     ```bash
     docker-compose up --build
     ```
 
-4.  **Akses API:**
+3.  **Akses API:**
     Setelah kedua *container* berjalan, buka browser Anda di:
     **`http://localhost:8080/api/viewdata`**
-      ]
-    }
-    ```
