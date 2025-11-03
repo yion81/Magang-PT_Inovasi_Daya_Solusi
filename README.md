@@ -6,11 +6,8 @@
 * **MySQL**
 * **Maven**
 * **Docker**
-
----
-
+--- 
 ## 🏃‍♂️ Cara Menjalankan
-**Menggunakan Docker Compose**
 
 **Requirement:**
 * **Docker Desktop**
