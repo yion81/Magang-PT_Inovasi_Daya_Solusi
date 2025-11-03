@@ -1,0 +1,37 @@
+version: '3.8'
+
+services:
+  db-mysql:
+    image: mysql:8.0
+    container_name: myapp-db
+    environment:
+      MYSQL_ROOT_PASSWORD: ${DB_PASSWORD}
+      MYSQL_DATABASE: my_database
+    volumes:
+      - mysql_data:/var/lib/mysql
+      - ./init-sql:/docker-entrypoint-initdb.d
+    networks:
+      - myapp-network
+
+  api:
+    build: .
+    container_name: myapp-api
+    depends_on:
+      - db-mysql
+    ports:
+      - "8080:8080"
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:mysql://db-mysql:3306/my_database
+      SPRING_DATASOURCE_USERNAME: root
+      SPRING_DATASOURCE_PASSWORD: ${DB_PASSWORD}
+      SPRING_JPA_HIBERNATE_DDL_AUTO: update
+      SPRING_JPA_PROPERTIES_HIBERNATE_DIALECT: org.hibernate.dialect.MySQLDialect
+    networks:
+      - myapp-network
+
+networks:
+  myapp-network:
+    driver: bridge
+
+volumes:
+  mysql_data:
