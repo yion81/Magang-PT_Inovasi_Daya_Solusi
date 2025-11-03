@@ -25,7 +25,9 @@
     ```bash
     docker-compose up --build
     ```
-
-3.  **Akses API:**
+3.  **Run APU**
+    View melalui docker desktop dan nyalakan container api
+    
+4.  **Akses API:**
     Setelah kedua *container* berjalan, buka browser Anda di:
     **`http://localhost:8080/api/viewdata`**
