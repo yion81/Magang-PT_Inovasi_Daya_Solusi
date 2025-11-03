@@ -25,7 +25,7 @@
     ```bash
     docker-compose up --build
     ```
-3.  **Run APU**
+3.  **Run Container API**
     View melalui docker desktop dan nyalakan container api
     
 4.  **Akses API:**
