@@ -31,6 +31,6 @@
 
 **Cara Menghentikan Docker:**
     Buka terminal di folder proyek (folder technical-api) dan jalankan:
-    ```bash
+    ```
     docker-compose down
     ```
