@@ -21,7 +21,7 @@
 1.  **Clone repository ini ke folder yang diinginkan.**
 
 2.  **Jalankan Docker Compose:**
-    Buka terminal di folder proyek dan jalankan:
+    Buka terminal di folder proyek (folder technical-api) dan jalankan:
     ```bash
     docker-compose up --build
     ```
