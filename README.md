@@ -29,7 +29,8 @@
     Setelah kedua *container* berjalan, buka browser Anda di:
     **`http://localhost:8080/api/viewdata`**
 
-**Cara Menghentikan Docker** 
+**Cara Menghentikan Docker:**
+    Buka terminal di folder proyek (folder technical-api) dan jalankan:
     ```bash
     docker-compose down
     ```
