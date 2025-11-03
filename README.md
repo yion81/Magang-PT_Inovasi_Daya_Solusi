@@ -28,3 +28,8 @@
 4.  **Akses API:**
     Setelah kedua *container* berjalan, buka browser Anda di:
     **`http://localhost:8080/api/viewdata`**
+
+**Cara Menghentikan Docker** 
+    ```bash
+    docker-compose down
+    ```
