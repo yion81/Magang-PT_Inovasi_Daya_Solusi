@@ -22,7 +22,7 @@
     ```bash
     docker-compose up --build
     ```
-3.  **Run Container API** (Abaikan jika container API sudah berjalan)
+3.  **Run Container API (Abaikan jika container API sudah berjalan):** 
     View melalui docker desktop dan nyalakan container api
     
 4.  **Akses API:**
